@@ -1,5 +1,12 @@
 # Notes
 
+- [Notes](#notes)
+  - [Intro](#intro)
+  - [Project Details](#project-details)
+  - [Learning Resource](#learning-resource)
+
+---
+
 ## Intro
 
 This is a Power BI dashboard project that connects to a PostgreSQL database. The project is based on an imaginary chocolate company. The dashboard displays the following:
@@ -12,16 +19,15 @@ This is a Power BI dashboard project that connects to a PostgreSQL database. The
 - Sales by Geography,
 - and Top 10 Salespeople Ordered by the Amount of Sales.
 
+**Main dashboard:**
+
 ![dashboard](./images/sales_dashboard.png)
 
-Another dashboard shows the sales by a specific chocolate product:
+**Another dashboard shows the sales by a specific product:**
 
 ![dashboard 2](./images/sales_dashboard_PC.png)
 
-The project could be coded along following this video:  
-[How to use SQL with Power BI](https://www.youtube.com/watch?v=UQJAHUUFK-o)
-
-My code differs from the video, as I implemented this project in PostgreSQL, whereas the tutorial is based on a different SQL Database Management System.
+---
 
 ## Project Details
 
@@ -37,3 +43,12 @@ The key steps involved in this project are:
 - Using DAX to create several explicit measures,
 - Writing a SQL query in Power BI to import specific data, and
 - Parameterizing the SQL code in Power Query to easily change the data imported from the database
+
+---
+
+## Learning Resource
+
+The project can be coded along following this video:  
+[How to use SQL with Power BI](https://www.youtube.com/watch?v=UQJAHUUFK-o)
+
+My code differs from the video, as I implemented this project in PostgreSQL, whereas the tutorial is based on a different SQL Database Management System.
